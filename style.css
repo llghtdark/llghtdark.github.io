@@ -2,7 +2,14 @@ body{
     margin: 0;
     color: antiquewhite;
     background-color: #151515;
-    display: flex;
-    justify-content: center;
     font-family: cursive;
+}
+.main{
+    text-align: center;
+}
+a{
+    color: antiquewhite;
+	text-decoration: none;
+    background-color: #337ebb;
+    padding: 10px;
 }
