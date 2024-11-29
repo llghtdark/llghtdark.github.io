@@ -5,7 +5,11 @@ body{
     font-family: monospace;
 }
 .main{
-    text-align: center;
+    /*text-align: center;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 .project{
     color: antiquewhite;
@@ -13,5 +17,13 @@ body{
     background-color: #138f7e;
     padding: 10px;
     font-size: 23px;
-    border-radius: 5px;
+    /*border-radius: 5px;*/
+    margin: 5px;
+}
+h1 a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+h1 a:hover{
+    text-decoration: underline;
 }
