@@ -4,7 +4,7 @@ body{
     background-color: #151515;
     font-family: monospace;
 }
-.main{
+main{
     /*text-align: center;*/
     display: flex;
     align-items: center;
@@ -14,16 +14,32 @@ body{
 .project{
     color: antiquewhite;
 	text-decoration: none;
-    background-color: #138f7e;
     padding: 10px;
     font-size: 23px;
     /*border-radius: 5px;*/
     margin: 5px;
 }
+.project img{
+    width: 500px;
+    border: 2px, solid, #138f7e;
+    border-radius: 5px;
+}
+.project h3{
+    padding: 0;
+    margin: 0;
+    font-size:x-large;
+}
 h1 a{
     text-decoration: none;
     color: antiquewhite;
+    font-size: larger;
 }
 h1 a:hover{
     text-decoration: underline;
+}
+.projects{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
