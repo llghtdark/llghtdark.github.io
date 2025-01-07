@@ -20,9 +20,11 @@ main{
     margin: 5px;
 }
 .project img{
-    width: 500px;
-    border: 2px, solid, #138f7e;
+    width: 400px;
+    height: 250px;
+    border: 2px solid #138f7e;
     border-radius: 5px;
+    object-fit: cover;
 }
 .project h3{
     padding: 0;
